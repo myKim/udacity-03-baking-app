@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="recipe_detail_title">Recipe Detail</string>
+    <string name="recipe_step_detail_title">Recipe Step</string>
+
+    <string name="key_step_list">KEY_STEP_LIST</string>
+    <string name="key_step_index">KEY_STEP_INDEX</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

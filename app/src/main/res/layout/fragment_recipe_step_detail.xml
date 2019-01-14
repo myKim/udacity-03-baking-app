@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_recipe_step_instruction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myoung.android.bakingapp.ui.RecipeStepDetailFragment">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/pv_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:resize_mode="fit" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout_step_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/BakingAppTextStyle.Title.RecipeDetail"
+                android:text="Description" />
+
+            <TextView
+                android:id="@+id/tv_step_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Recipe Step Description Contents" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

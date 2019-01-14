@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recipes"
+            android:title="Recipes" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="Favorite" />
+    </group>
+
+    <item
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share this app" />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate this app" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>
